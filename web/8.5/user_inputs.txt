@@ -1,0 +1,12 @@
+File name: 1hzh.pdb
+ph: 8.5
+Material: Ag
+hkl plane: 111
+Zeta potential (mV): 0.0
+Radius of Nanoparticle (nm): 20.0
+Ionic strength (M * e²): 0.15
+Temperature (K): 309.75
+Angle φ(°): 5.0
+Angle θ (°): 130.0
+Angle step (°): 5.0
+Number of samples per angle step (#): 6

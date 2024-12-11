@@ -1,0 +1,6 @@
+This folder contains parameters used by UANanoDock to model interactions between nanomaterials and aminoacids composing the protein.
+-- ./hamaker folder includes files for all materials with Hamaker parameter;
+-- ./PMF folder holds pre-calculated short range potentials for each nanomaterial-aminoacid pair;
+-- ./[material]_FF_availability.pdf files are provided to check availability of parameters for selected material/aminoacid pair.
+   If parameter is missing fromt he list, the UANanoDock can not model such adsorbtion. Only standart aminoacids set is covered.
+

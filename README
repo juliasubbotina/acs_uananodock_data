@@ -1,0 +1,27 @@
+This repository includes machine-readable UANanoDock/UnitedAtom input/output files to support submission
+of Application Note to the Journal of Chemical Information and Modeling:
+ 
+UANanoDock: A web-based UnitedAtom multiscale nano-docking tool for predicting protein adsorption onto nanoparticles.
+by J.Subbotina, et. al., doi:TBD
+
+The UANanoDock web-tool is an server application based on UAModel program.
+
+Link to UANanoDock (via Enalos):
+Web-tool: https://www.enaloscloud.novamechanics.com/compsafenano/uananodock/
+GitHub tutorial: https://github.com/juliasubbotina/uananodock_tutorial
+
+
+Link to UAModel (via NPCoronaPredict):
+Paper:  https://pubs.acs.org/doi/full/10.1021/acs.jcim.4c00434
+GitHub: https://github.com/ucd-softmatterlab/NPCoronaPredict
+
+The Zenodo archive consist of results obtained online and by re-using obtained files to create scaled-up pipeline
+for in-silico design of immunoassays, that incorporate IgG-AgNP interaction for immunoassay design:
+
+-- the ./web folder contains results obtained by using UANanoDock web-tool
+-- ./scaleup folder includes files from scaled-up calculations performed by locally installed version of UAModel
+    with input files created online by UANanoDock 
+-- benchmarking.csv benchmarking info for UANanoDock online performance
+-- acs_uananodock_supporting_materials.ipynb Python notebook with scripts used for plotting figures shown in manuscript.
+-- ./nb_assets folder contains outputs from  acs_uananodock_supporting_materials.ipynb (manuscript figures)
+

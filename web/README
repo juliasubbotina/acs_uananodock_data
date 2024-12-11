@@ -1,0 +1,28 @@
+These folders contain results obtained from UANanoDock at  Enalos Cloud Platform:
+https://www.enaloscloud.novamechanics.com/compsafenano/uananodock/
+
+The run was performed for ph = [6.8, 7.3, 8.5]
+
+The input PDfor the run was 1hzh.pdb downloaded from rcsb.org (https://www.rcsb.org/structure/1hzh)
+
+Each folder includes:
+
+Inputs:
+-- user_inputs.txt  - input parametres for NP and UANanoDock run
+-- UAAutorun_configautogen.config  - CONFIG input file used by UnitedAtom program
+-- material.dat - file with Hamaker parameters
+-- PMF parameters implemented for UANANoDock web tool can be located in ../forcefield_parameters/PMF
+  
+Outputs:
+-- propKa2UA.pdb/propKa2UA.xyz - coordinates of the protein, pre-processed for UANanoDock run
+-- NP.xyz - CG coordinates of NP
+-- NP_protein_CG_min.xyz/NP_protein_CG_min.pdb -- coordinates for NP-protein complex
+-- propKa2UA.uam - adsorption heatmap in machine readable form
+-- heatmap.png - image of adsorption heatmap generated from propKa2UA.uam
+-- Stage1.png -- visualised  propKa2UA.pdb file
+-- Stage3.png -- visualised  NP_protein_CG_min.pdb file
+
+Misc:
+-- MultiCompressed.zip - archive that was downloaded from UANanoDock web-tool via "Download the Output files"
+
+

@@ -1,0 +1,10 @@
+This folder contains files used/obtained from a scale-up UAModel run performed locally, by modifiing  input files obtained online.
+-- ./config folder contains the CONFIG files locally. They were created from corresponding  UAAutorun_configautogen.config
+   files from ../web folder by adding additional values for radii and zeta potentials.
+-- ./surface folder contains PMF folder with potentials, identical to ../web/forcefields/PMF 
+-- ./res/[ph]/np[np_id]R_[radii]_ZP_[zPot]/ folders contain *UAM files that were analysed for identifying optimal conditions
+   for adsorption of IgG onto Ag NPs
+
+
+
+ 

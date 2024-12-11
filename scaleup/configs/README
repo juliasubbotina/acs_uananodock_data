@@ -1,0 +1,7 @@
+These configs can be used to submit UAModel runs locally (after UA intalation and correcting some pathways for local machine) via:
+
+./UnitedAtom --config-file=name.config
+
+Instalation distributive for UA can be obtained via GitHub (as a part of NPCoronaPredict software):
+https://github.com/ucd-softmatterlab/NPCoronaPredict
+
